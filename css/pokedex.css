@@ -1,0 +1,984 @@
+.header {
+  background-color: #dc0a2d;
+}
+
+.line-pokeball {
+  background-color: black;
+  height: 40px;
+  position: relative;
+}
+
+.button-pokeball {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonBorder {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50%;
+  margin: auto;
+
+  margin-top: -10px;
+}
+
+.buttonPoke {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: -50px;
+}
+
+.pushButton {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: -35px;
+}
+
+.pokedex {
+  width: 1080px;
+  height: 670px;
+  margin: auto;
+  position: relative;
+}
+
+
+/*pokedex lado izquierdo*/
+.pokedex-left {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  border-radius: 40px 15px 0 40px;
+  background: #dc0a2d;
+  border-left: 20px solid #850d20;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.button-container {
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+
+.circle-g {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  margin: 10px 0 10px 10px;
+}
+
+.circle {
+  background-color: rgb(57, 159, 206);
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  margin: 5px 5px 5px 5px;
+}
+
+.circles-container {
+  display: flex;
+  padding-top: 5px;
+}
+
+.circle1 {
+  background-color: rgb(150, 0, 0);
+  border-radius: 50%;
+  margin: 7px;
+  height: 25px;
+  width: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.circle2 {
+  background-color: rgb(189, 154, 0);
+  border-radius: 50%;
+  margin: 7px;
+  height: 25px;
+  width: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.circle3 {
+  background-color: rgb(19, 116, 11);
+  border-radius: 50%;
+  margin: 7px;
+  height: 25px;
+  width: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.poke-search {
+  display: inline-block;
+  margin: 20px;
+  border-radius: 5px;
+  display: inline-flex;
+  z-index: 1;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+
+.shearch-box {
+  font-family: "VT323";
+  font-size: 22px;
+  border: none;
+  padding: 10px;
+  margin: 5px 0 5px 5px;
+  border-radius: 5px;
+}
+
+.button {
+  border-radius: 5px;
+  border: none;
+}
+
+.icon {
+  color: white;
+}
+
+.screen {
+  position: relative;
+  background: #dedede;
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button1-red {
+  background: red;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  margin-top: 12px;
+  margin-left: -20px;
+  position: absolute;
+}
+
+.button2-red {
+  background: red;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  margin-top: 12px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+.screen-container {
+  background: #232323;
+  border-radius: 10px;
+  width: 340px;
+  height: 200px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.screen-container img {
+  margin-top: 20px;
+  height: 80%;
+}
+
+.button3-red {
+  background: red;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  margin-right: 280px;
+  margin-top: 250px;
+  position: absolute;
+}
+
+.audio {
+  margin-left: 280px;
+  margin-top: 240px;
+  position: absolute;
+  font-size: 40px;
+}
+
+.bg-type {
+  background: black;
+}
+
+.b-type {
+  position: absolute;
+  margin-top: 255px;
+}
+
+.type-color {
+  color: #ffffff;
+  /*font-family: "VT323";*/
+  font-size: 15px;
+}
+
+.controls {
+  width: 80%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+
+.button4 {
+  background: black;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border-left: 3px solid grey;
+  border-bottom: 3px solid grey;
+  border-top: 3px solid grey;
+  border-right: 3px solid grey;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+
+.button5 {
+  height: 15px;
+  width: 70px;
+  background: white;
+  margin: 15px;
+  margin-top: -25px;
+  border-radius: 10px;
+}
+
+.redButton {
+  background: rgb(204, 3, 35);
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.blueButton {
+  background: rgb(14, 111, 128);
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.pad {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  margin-top: 460px;
+  left: 400px;
+}
+.pad-vertical {
+  height: 100%;
+  width: 30%;
+  border-radius: 5px;
+  background: black;
+  position: absolute;
+  left: -8px;
+}
+.pad-horizontal {
+  height: 30%;
+  width: 100%;
+  background: black;
+  border-radius: 5px;
+
+  top: 35px;
+  left: -43px;
+  position: absolute;
+}
+
+.pad-circle {
+  border: 1px solid gray;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 37px;
+  left: -5.5px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.smallScreen {
+  background: #52ae5f;
+  height: 110px;
+  width: 220px;
+  border-radius: 10px;
+  position: absolute;
+  top: 530px;
+  left: 130px;
+  border: 3px solid black;
+}
+
+.colum-txt2 {
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.screen-container2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*Pokedex lado derecho*/
+.pokedex-right {
+  height: 92.5%;
+  width: 50%;
+  position: absolute;
+  left: 540px;
+  top: 50px;
+  border-radius: 0 0 40px 0;
+  background: #dc0a2d;
+  border-left: 20px solid #850d20;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  width: 400px;
+  height: 150px;
+  position: absolute;
+  top: 90px;
+  border-radius: 7px;
+  background: #232323;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+}
+
+.pokeInfo {
+  font-family: "VT323";
+  justify-content: space-between;
+  margin: 5px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.pokeInfo2 {
+  font-family: "VT323";
+  align-items: flex-end;
+  justify-content: space-around;
+  margin: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.infoStadistic {
+  font-weight: 500;
+}
+
+.tooltipInfo {
+  cursor: default;
+}
+
+.infoP {
+  flex-direction: column;
+}
+
+.buttons-container {
+  margin-top: 20px;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.buttons-ctrl {
+  height: 50px;
+  margin: 1px;
+  box-sizing: border-box;
+  width: calc((300px / 5) - 2px);
+  background: #22c4ea;
+}
+.buttons-ctrl.first {
+  border-radius: 5px 0 0 0;
+}
+.buttons-ctrl.fifth {
+  border-radius: 0 5px 0 0;
+}
+.buttons-ctrl.sixth {
+  border-radius: 0 0 0 5px;
+}
+.buttons-ctrl.tenth {
+  border-radius: 0 0 5px 0;
+}
+
+.buttons-cont {
+  height: 20px;
+  width: 110px;
+  position: absolute;
+  margin-top: 170px;
+  left: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button6 {
+  height: 13px;
+  width: 52px;
+  background: #2c2c2c;
+  border-radius: 10px;
+}
+.dual-buttons {
+  display: flex;
+  height: 50px;
+  width: 120px;
+  position: absolute;
+  top: 420px;
+  left: 100px;
+}
+
+.button7 {
+  background: #e3e3e3;
+  width: 50%;
+  height: 100%;
+  margin: 1px;
+}
+
+.button7.first {
+  border-radius: 10px 0 0 10px;
+}
+
+.button7.second {
+  border-radius: 0 10px 10px 0;
+}
+
+.button8 {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 420px;
+  left: 350px;
+  background: #9f8a0d;
+}
+
+.blackButtons {
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  margin-top: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+.blackButton {
+  width: 50%;
+  border-radius: 10px;
+  height: 100%;
+  margin: 0 10px;
+  background: #232323;
+  text-align: center;
+}
+
+/*star responsive mobile*/
+@media (max-width: 1080px) {
+  .header {
+    width: 100%;
+    margin: auto;
+  }
+
+  .pokedex-container {
+    align-items: center;
+  }
+
+  .pokedex {
+    width: 350px;
+    height: 670px;
+    margin: auto;
+    position: relative;
+    align-items: center;
+  }
+
+  .pokedex-left {
+    height: 100%;
+    width: 100%;
+    border-radius: 40px 40px 0 0;
+    background: #dc0a2d;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 20px solid #850d20;
+    border-right: 2px solid black;
+  }
+
+  .button-container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+  }
+
+  .circle-g {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    margin: 10px 0 10px 10px;
+  }
+
+  .circle {
+    background-color: rgb(57, 159, 206);
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    margin: 5px 5px 5px 5px;
+  }
+
+  .circles-container {
+    display: flex;
+    padding-top: 5px;
+  }
+
+  .circle1 {
+    background-color: rgb(150, 0, 0);
+    border-radius: 50%;
+    margin: 7px;
+    height: 25px;
+    width: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .circle2 {
+    background-color: rgb(189, 154, 0);
+    border-radius: 50%;
+    margin: 7px;
+    height: 25px;
+    width: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .circle3 {
+    background-color: rgb(19, 116, 11);
+    border-radius: 50%;
+    margin: 7px;
+    height: 25px;
+    width: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .poke-search {
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    z-index: 1;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+  }
+
+  .shearch-box {
+    font-family: "VT323";
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+    margin: 5px 0 5px 5px;
+    border-radius: 5px;
+  }
+
+  .button {
+    border-radius: 5px;
+    border: none;
+  }
+
+  .icon {
+    color: white;
+  }
+
+  .screen {
+    position: relative;
+    background: #dedede;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    margin: 30px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button1-red {
+    background: red;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    margin-top: 12px;
+    margin-left: -20px;
+    position: absolute;
+  }
+
+  .button2-red {
+    background: red;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    margin-top: 12px;
+    margin-left: 10px;
+    position: absolute;
+  }
+
+  .screen-container {
+    background: #232323;
+    border-radius: 10px;
+    width: 240px;
+    height: 120px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .screen-container img {
+    margin-top: 12px;
+    height: 80%;
+  }
+
+  .button3-red {
+    background: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    margin-right: 200px;
+    margin-top: 162px;
+    position: absolute;
+  }
+
+  .audio {
+    margin-left: 180px;
+    margin-top: 152px;
+    position: absolute;
+    font-size: 35px;
+  }
+
+  .bg-type {
+    background: black;
+  }
+
+  .b-type {
+    position: absolute;
+    margin-top: 164px;
+  }
+
+  .type-color {
+    color: #ffffff;
+    /*font-family: "VT323";*/
+    font-size: 10px;
+  }
+
+  .controls {
+    width: 80%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .button4 {
+    background: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-left: 3px solid grey;
+    border-bottom: 3px solid grey;
+    border-top: 3px solid grey;
+    border-right: 3px solid grey;
+    margin-right: -15px;
+    margin-top: 55px;
+  }
+
+  .button5 {
+    height: 15px;
+    width: 70px;
+    background: white;
+    margin: 15px;
+    margin-top: -55px;
+    border-radius: 10px;
+  }
+
+  .redButton {
+    background: rgb(204, 3, 35);
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .blueButton {
+    background: rgb(14, 111, 128);
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .pad {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-top: 360px;
+    left: 280px;
+  }
+  .pad-vertical {
+    height: 100%;
+    width: 30%;
+    border-radius: 5px;
+    background: black;
+    position: absolute;
+    left: -8px;
+  }
+  .pad-horizontal {
+    height: 30%;
+    width: 100%;
+    background: black;
+    border-radius: 5px;
+
+    top: 35px;
+    left: -43px;
+    position: absolute;
+  }
+
+  .pad-circle {
+    border: 1px solid gray;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 37px;
+    left: -5.5px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .smallScreen {
+    background: #52ae5f;
+    height: 110px;
+    width: 220px;
+    border-radius: 10px;
+    position: absolute;
+    top: 500px;
+    left: 60px;
+    border: 3px solid black;
+  }
+
+  .colum-txt2 {
+    flex-direction: column;
+    margin-left: 15px;
+  }
+
+  .screen-container2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pokedex-right {
+    height: 92.5%;
+    width: 100%;
+
+    left: 0;
+    top: 670px;
+    border-radius: 0 0 40px 40px;
+    background: #dc0a2d;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 20px solid #850d20;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-container {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    border-radius: 7px;
+    background: #232323;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+  }
+
+  .pokeInfo {
+    font-family: "VT323";
+    justify-content: space-between;
+    margin: 5px;
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .pokeInfo2 {
+    font-family: "VT323";
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .infoStadistic {
+    font-weight: 500;
+  }
+
+  .tooltipInfo {
+    cursor: default;
+  }
+
+  .infoP {
+    flex-direction: column;
+  }
+
+  .buttons-container {
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+  }
+
+  .buttons-ctrl {
+    height: 50px;
+    margin: 1px;
+    box-sizing: border-box;
+    width: calc((300px / 5) - 2px);
+    background: #22c4ea;
+  }
+  .buttons-ctrl.first {
+    border-radius: 5px 0 0 0;
+  }
+  .buttons-ctrl.fifth {
+    border-radius: 0 5px 0 0;
+  }
+  .buttons-ctrl.sixth {
+    border-radius: 0 0 0 5px;
+  }
+  .buttons-ctrl.tenth {
+    border-radius: 0 0 5px 0;
+  }
+
+  .buttons-cont {
+    height: 20px;
+    width: 110px;
+    position: absolute;
+    margin-top: 170px;
+    left: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button6 {
+    height: 13px;
+    width: 52px;
+    background: #2c2c2c;
+    border-radius: 10px;
+  }
+  .dual-buttons {
+    display: flex;
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    top: 420px;
+    left: 50px;
+  }
+
+  .button7 {
+    background: #e3e3e3;
+    width: 50%;
+    height: 100%;
+    margin: 1px;
+  }
+
+  .button7.first {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .button7.second {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .button8 {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 420px;
+    left: 300px;
+    background: #9f8a0d;
+  }
+
+  .blackButtons {
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    margin-top: 460px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .blackButton {
+    width: 50%;
+    border-radius: 10px;
+    height: 100%;
+    margin: 0 10px;
+    background: #232323;
+    text-align: center;
+  }
+}
+/*fin responsive mobile*/
